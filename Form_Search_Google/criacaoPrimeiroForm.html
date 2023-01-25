@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Primeiro Form</title>
+</head>
+<body>
+  <h3>Cadastro da Liga dos Astronautas</h3>
+  <form action="">
+    <div>
+    <label for="text">Nome:</label>
+    <input type="text" id="username" name="username"><br>
+  </div>
+    <br>
+    <div>
+      <label for="text">Email:</label>
+      <input type="password" id="email">
+      <label for="pwd">- Password:</label>
+      <input type="password" id="pwd" name="pwd">
+    </div>
+  <br>
+    <div>
+      <label for="birthday">Data de nascimento:</label>
+      <input type="date" id="birthday" name="birthday">
+      <label for="myfile">- Foto:</label>
+      <input type="file" id="myfile" name="myfile">
+    </div>
+<br>
+    <div>
+      <label for="nationality">Nacionalidade::</label>
+      <select type="nationality" id="nationality" name="nationality">
+      <option value="brasilian">Brasileiro</option>
+      <option value="american">Americano</option>
+      <option value="russian">Russo</option>
+      </select>
+    - Genero:
+    <label for="female">F</label>
+    <input type="radio" id="female" name="female" value="female">
+    <label for="male">M</label>
+    <input type="radio" id="male" name="male" value="male">
+  </div>
+  <br>
+  <div>
+    Suas Principais qualidades: <br>
+    <label for="int"> Inteligência</label>
+    <input type="checkbox" id="int" name="int" value="int">
+    <label for="res"> Resiliência</label>
+    <input type="checkbox" id="res" name="res" value="res">
+    <label for="prep"> Preparo Físico</label>
+    <input type="checkbox" id="prep" name="prep" value="prep">
+    <label for="edu"> Educação</label>
+    <input type="checkbox" id="edu" name="edu" value="edu">
+  </div>
+  <br>
+  <div></div>
+    <textarea name="description" id="description" rows="10" cols="30" placeholder="Por quê você quer ser um astronauta?"></textarea>
+  </div>
+  <br>
+  <div>
+    <input type="submit" value="Enviar">
+  </div>
+  </form>
+</body>
+</html>

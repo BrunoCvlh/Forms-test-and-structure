@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Encontre no Google</h1>
+  <form action="https://www.google.com.br/search">
+    <label for="q">O que deseja pesquisar</label>
+    <!– Na linha abaixo o required serve para dizer que é obrigatório 
+    o preenchimento do campo, o placeholder é a mensagem que aparecerá
+     dentro do campo para o instruir o usuário –>
+    <input type="text" id="q" name="q" placeholder="pesquise" required>
+
+    <!–Agora outro exemplo é usando o type number e mínimo e máximo de caracteres–>
+    <input type="numero" id="q" name="q" placeholder="numero" min="5" max="10">
+
+    <!–Tambem há a possibilidade de usar com email–>
+    <input type="email" id="q" name="q" placeholder="e-mail">
+
+
+    <input type="submit" value="Search">
+  </form>
+</body> 
+</html>
